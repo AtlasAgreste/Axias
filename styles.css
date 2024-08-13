@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 60px;
+    background-color: #ececec9c; /* Light background for better contrast */
+    color: #12dc85; /* Dark text for readability */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #007BFF; /* Background color for the header */
+    padding: 10px; /* Padding around the header content */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.header-container img {
+    max-width: 50px; /* Size of the logo */
+    margin-right: 15px; /* Space between the logo and the heading */
+    border-radius: 50%; /* Make the logo circular */
+}
+
+h1 {
+    color: white; /* White text for the header */
+    margin: 0;
+}
+
+form {
+    background-color: white; /* White background for form */
+    padding: 20px; /* Padding inside the form */
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 2px 4px #00ff73; /* Subtle shadow for depth */
+}
+
+textarea, select {
+    width: 100%;
+    margin-bottom: 15px; /* Space between form elements */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Slightly larger font for better readability */
+    background-color: #f9f9f9; /* Light background inside input fields */
+}
+
+button {
+    padding: 12px 25px; /* More padding for a larger button */
+    background-color: #12dc85; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Slightly larger text */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+button:hover {
+    background-color: #25e893; /* Darker shade on hover */
+}
+
+#result {
+    font-size: 6em; /* Larger font size for emphasis */
+    font-weight: italic bold;
+    color: #12dc85; /* Matching color with the button and header */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e7f1ff; /* Light blue background for the result */
+    border-left: 5px solid #00ff73; /* Emphasized border on the left */
+    border-radius: 4px; /* Rounded corners */
+}h3 {
+    font-size: 3.5em; /* Adjust this value to your preference */
+    font-weight: bold; /* Makes the subheadings bold */
+    color: #00952d; /* Optional: Matching the theme color */
+    margin-bottom: 10px; /* Spacing below the subheadings */
+}
+
